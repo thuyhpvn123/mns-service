@@ -1,0 +1,27 @@
+
+MYSQL_URL: "root:password@tcp(127.0.0.1:3306)/names?charset=utf8mb4&parseTime=True&loc=Local"  
+Address: "83CEC343cFc7A6644C1547277d26D7A621FDc40C" # Admin Address
+PrivateKey_: "6f2c7d50eb6241a221a11efe67dabd058986683fcd55ecffbd585066f3132cb5"
+MetaNodeVersion: "0.0.1" 
+
+NodeAddress: "0x16851100Aa757efad2D67C32A6b544737AB991A7" 
+NodeConnectionAddress: "node" 
+
+StorageAddress: "0xda7284faC5E804F8b9d71Aa39310f0f86776b51d"
+StorageConnectionAddress: "storage"
+
+CustomDomainAddress: "0x37030890e13Ed1cf7847FE977d8319Ab315B2E9a"  
+CustomDomainABIPath: "../abi/customdomain"
+
+NamewrapperAddress: "0x880cAE2A650aCBa7E05E0eCf37D78b32852e16AC"  
+NamewrapperABIPath: "../abi/namewrapper"
+
+ResolverAddress: "0xD263f8eA5992Fceaf8cD01238b24DeF3b10a93BE"
+
+RegistrarControllerAddress: "0x9057870756C4F9c838d016B399094a93f0fdA005"
+RegistrarControllerABIPath: "../abi/registrarController"
+
+# DnsLink_: "http://34.93.102.218:7777/api/dns/connection-address/"
+DnsLink_: "http://127.0.0.1:7080/api/dns/connection-address/"
+
+API_PORT: ":8188"
